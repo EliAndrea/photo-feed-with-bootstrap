@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Mi muro</title>
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i> Instagram</span>
+            <form class="form-inline">
+                <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
+                type="button">Crear un nuevo post</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Cerrar sesión</a>
+                    </div>
+                </div>
+            </form>
+        </nav>
+        <!-- Botones cambio de página -->
+        <nav aria-label="Page navigation example" class="margen">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                    <i class="fas fa-th"></i></a>
+                </li>
+                <li class="page-item"><a class="page-link text-secondary" href="muro.html">■</a></li>
+            </ul>
+        </nav>
+        <!--Muro-->
+        <div class="card">
+            <div class="card-header">
+                <h4 class="titulo">Mi primera foto</h4>
+                <button type="button" class="btn btn-link">12/14</button>
+            </div>
+            <img src="http://lorempixel.com/550/400/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">23 Likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="titulo">Comida</h4>
+                <button type="button" class="btn btn-link">03/15</button>
+            </div>
+            <img src="http://lorempixel.com/550/400/food" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">20 Likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+                <div class="card-header">
+                    <h4 class="titulo">Un lindo gatito</h4>
+                    <button type="button" class="btn btn-link">05/15</button>
+                </div>
+                <img src="http://lorempixel.com/550/400/cats" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">115 Likes</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="titulo">Un día en la ciudad</h4>
+                    <button type="button" class="btn btn-link">12/15</button>
+                </div>
+                <img src="http://lorempixel.com/550/400/city" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">30 Likes</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+        <!--Modal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Publicar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
